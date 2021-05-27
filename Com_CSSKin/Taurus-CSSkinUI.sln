@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taurus.CSSkinUI.WF", "Taurus.CSSkinUI.WF.csproj", "{3B63C55E-4E29-4854-9145-2FE2E73DE634}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForm", "WinForm", "{52AB66AD-EF69-462D-BD50-4F4717825532}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{A659AD32-7ECC-4226-A9C7-6810C90E91EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taurus.CSSkinUI.WPF", "..\Com_WPFSkin\Taurus.CSSkinUI.WPF\Taurus.CSSkinUI.WPF.csproj", "{A6189024-5D52-4B09-9ABF-D6EA37CE2D98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{91A3BC6F-56A9-4B61-81D1-B2C103B90A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{CDB66A3A-E19C-4EEF-BA36-7B998C0A79C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taurus.CoreSkinUI.WPF", "..\Com_WPFSkin\Taurus.CoreSkinUI.WPF\Taurus.CoreSkinUI.WPF.csproj", "{99DA01D4-91E3-4D2D-BED1-3A05A3C4FA0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taurus.CoreSkinUI.Com", "..\Com_WPFSkin\Taurus.CoreSkinUI.WPFCom\Taurus.CoreSkinUI.Com.csproj", "{CEC07D78-0D79-4D82-8525-440F45BBDCE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B63C55E-4E29-4854-9145-2FE2E73DE634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B63C55E-4E29-4854-9145-2FE2E73DE634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B63C55E-4E29-4854-9145-2FE2E73DE634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B63C55E-4E29-4854-9145-2FE2E73DE634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6189024-5D52-4B09-9ABF-D6EA37CE2D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6189024-5D52-4B09-9ABF-D6EA37CE2D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6189024-5D52-4B09-9ABF-D6EA37CE2D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6189024-5D52-4B09-9ABF-D6EA37CE2D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DA01D4-91E3-4D2D-BED1-3A05A3C4FA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DA01D4-91E3-4D2D-BED1-3A05A3C4FA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DA01D4-91E3-4D2D-BED1-3A05A3C4FA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DA01D4-91E3-4D2D-BED1-3A05A3C4FA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC07D78-0D79-4D82-8525-440F45BBDCE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC07D78-0D79-4D82-8525-440F45BBDCE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC07D78-0D79-4D82-8525-440F45BBDCE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC07D78-0D79-4D82-8525-440F45BBDCE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B63C55E-4E29-4854-9145-2FE2E73DE634} = {52AB66AD-EF69-462D-BD50-4F4717825532}
+		{A6189024-5D52-4B09-9ABF-D6EA37CE2D98} = {91A3BC6F-56A9-4B61-81D1-B2C103B90A3B}
+		{91A3BC6F-56A9-4B61-81D1-B2C103B90A3B} = {A659AD32-7ECC-4226-A9C7-6810C90E91EA}
+		{CDB66A3A-E19C-4EEF-BA36-7B998C0A79C9} = {A659AD32-7ECC-4226-A9C7-6810C90E91EA}
+		{99DA01D4-91E3-4D2D-BED1-3A05A3C4FA0A} = {CDB66A3A-E19C-4EEF-BA36-7B998C0A79C9}
+		{CEC07D78-0D79-4D82-8525-440F45BBDCE2} = {CDB66A3A-E19C-4EEF-BA36-7B998C0A79C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCF0C196-50F8-4BBF-A602-9E8EED7E8031}
+	EndGlobalSection
+EndGlobal
