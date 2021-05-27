@@ -344,53 +344,6 @@
     <Compile Include="SkinControl\SkinHotKey\SkinHotKey.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\ContextMenuForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\ContextMenuForm.designer.cs">
-      <DependentUpon>ContextMenuForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\CustomColors.cs" />
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\HtmlEditorEvents.cs" />
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\HtmlEnumerations.cs" />
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\HtmlFontProperty.cs" />
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\HtmlTableProperty.cs" />
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\IOleCommandTarget.cs" />
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\OfficeColorPicker.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\OfficeColorPicker.designer.cs">
-      <DependentUpon>OfficeColorPicker.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\SelectableColor.cs" />
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\TableSizeControl.cs" />
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\ToolStripColorPicker.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\ToolStripFontComboBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Common\ToolStripTableSizeSelector.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Form\EditHtmlForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Form\EditHtmlForm.designer.cs">
-      <DependentUpon>EditHtmlForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Form\FindReplaceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Form\FindReplaceForm.designer.cs">
-      <DependentUpon>FindReplaceForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Form\TablePropertyForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SkinControl\SkinHtmlEditor\Form\TablePropertyForm.designer.cs">
-      <DependentUpon>TablePropertyForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="SkinControl\SkinKey\PassKey.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -774,24 +727,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SkinControl\SkinGroupBox\SkinGroupBox.resx">
       <DependentUpon>SkinGroupBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SkinControl\SkinHtmlEditor\Common\ContextMenuForm.resx">
-      <DependentUpon>ContextMenuForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SkinControl\SkinHtmlEditor\Common\OfficeColorPicker.resx">
-      <DependentUpon>OfficeColorPicker.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SkinControl\SkinHtmlEditor\Common\ToolStripColorPicker.resx">
-      <DependentUpon>ToolStripColorPicker.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SkinControl\SkinHtmlEditor\Form\EditHtmlForm.resx">
-      <DependentUpon>EditHtmlForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SkinControl\SkinHtmlEditor\Form\FindReplaceForm.resx">
-      <DependentUpon>FindReplaceForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SkinControl\SkinHtmlEditor\Form\TablePropertyForm.resx">
-      <DependentUpon>TablePropertyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SkinControl\SkinKey\PassKey.resx">
       <DependentUpon>PassKey.cs</DependentUpon>
