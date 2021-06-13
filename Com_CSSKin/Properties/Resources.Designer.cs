@@ -91,21 +91,7 @@ namespace Com_CSSkin.Properties {
         }
         
         /// <summary>
-        ///   查找类似 这是一个免费的HTML控件，你可以自由使用。
-        ///如有任何问题或建议请加入QQ群：306485590，项目来至Cskin：http://www.cskin.net,是否现在就访问？
-        ///SkinHtmlEditor
-        ///版本:1.0.0
-        ///快捷键	功能
-        ///ctrl+b	给选中字设置为加粗
-        ///ctrl+c	复制选中内容
-        ///ctrl+x	剪切选中内容
-        ///ctrl+v	粘贴
-        ///ctrl+y	重新执行上次操作
-        ///ctrl+z	撤销上一次操作
-        ///ctrl+i	给选中字设置为斜体
-        ///ctrl+u	给选中字加下划线
-        ///ctrl+a	全部选中
-        ///shift+enter	软回车 的本地化字符串。
+        ///   查找类似 这是一个免费的HTML控件，你可以自由使用。     
         /// </summary>
         internal static string AboutInfo {
             get {
