@@ -79,6 +79,21 @@ namespace Com_CSSkin.Win32
                 return (GetWindowsVersionType() == WindowsType.WindowsXP);
             }
         }
+
+        public static bool IsWindows7
+        {
+            get
+            {
+                return (GetWindowsVersionType() == WindowsType.Windows7);
+            }
+        }
+
+        public static bool IsUnix
+        {
+            get
+            {
+                return Environment.OSVersion.Platform == PlatformID.Unix;
+            }
+        }
     }
 }
-

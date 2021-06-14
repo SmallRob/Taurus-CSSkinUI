@@ -13,7 +13,10 @@ namespace Com_CSSkin.Win32
         WindowsXP,
         Windows2003,
         WindowsVista,
-        Windows7
+        Windows7,
+        Windows8,
+        Windows8_1,
+        Windows10
     }
 }
 
